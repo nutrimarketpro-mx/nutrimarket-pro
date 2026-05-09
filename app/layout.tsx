@@ -1,3 +1,4 @@
+import './globals.css'
 export const metadata = {
   title: 'NutriMarket Pro',
   description: 'La mejor tienda de suplementos en México',
