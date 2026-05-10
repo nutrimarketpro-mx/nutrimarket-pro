@@ -12,7 +12,7 @@ export default function Page() {
       {/* Header */}
       <nav className="bg-blue-700 text-white p-4 sticky top-0 z-50 shadow-md">
         <div className="max-w-6xl mx-auto flex justify-between items-center">
-          <h1 className="text-2xl font-black tracking-tighter italic">NUTRIMARKETPRO</h1>
+          <h1 className="text-2xl font-black tracking-tighter italic">BioCore: Suplementación de Élite</h1>
           <button className="flex items-center gap-2 bg-white text-blue-700 px-4 py-2 rounded-full font-bold hover:bg-blue-50 transition">
             <ShoppingCart size={20} />
             Carrito (0)
