@@ -41,7 +41,11 @@ export default function Page() {
   const [selectedCategory, setSelectedCategory] = useState('Todos');
 
   // Lógica de filtrado
-  const categories = ['Todos', ...new Set(products.map(p => p.category))];
+  // Cambia esto:
+// const categories = ['Todos', ...new Set(products.map(p => p.category))];
+
+// Por esto (usando Array.from):
+const categories = ['Todos', ...Array.from(new Set(products.map(p => p.category)))];
   const filteredProducts = selectedCategory === 'Todos' 
     ? products 
     : products.filter(p => p.category === selectedCategory);
